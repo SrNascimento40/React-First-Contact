@@ -2,20 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const nome = "Wallace Nascimento";
+  const classTitulo = "titulo-vermelho";
+  const titulo = "OK OK OK OK OK OK OK OK OK OK"
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Oi eu sou o {nome}</p>
         <a
-          className="App-link"
+          className={classTitulo}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {titulo}
         </a>
       </header>
     </div>
